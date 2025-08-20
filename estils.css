@@ -1,0 +1,98 @@
+header {
+    text-align: center;
+    
+}
+h1 {
+    margin-bottom: 0px;
+}
+body {
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D9C8A1;
+  
+    
+}
+.content {
+    color: #FDF7E3; 
+  padding: 40px;
+  flex-grow: 1
+  
+
+}
+
+.menu{
+    background-color: #9C5A3C;
+    width: 180px;
+    text-align: center;
+   
+ 
+  
+  border: 4px solid beige;
+ 
+}
+
+
+nav {
+    background-color: #9C5A3C;
+   padding: 10px;
+  
+   height: 100vh;
+   display: flex;             /* active flexbox, axe vertical par defaut*/
+    flex-direction: column;  /* empile les enfants verticalement */
+    
+    align-items: center; /*centre mes enfants dans l’axe définit*/
+   
+   justify-content: center; /* centre verticalement */
+   gap: 20px;
+   width: 180px;
+
+}
+
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+     margin: 0;           /* Pour éviter des marges par défaut qui gênent */
+    padding: 0;
+  
+}
+
+
+  .layout {
+    display: flex;
+    height: 100vh;
+    
+  }
+  .port {
+    border: #FDF7E3 5px solid;
+    border-radius: 2px;
+  }
+
+  .imatges {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+  }
+  .item {
+     border: #FDF7E3 5px solid;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+  }
+
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    
+    background-color: green;
+    font-size: white
+    ;
+  }
